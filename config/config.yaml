@@ -1,0 +1,21 @@
+sparkConf:
+  spark.kryoserializer.buffer.max: 1024m
+  spark.driver.memory: 16g
+  spark.dynamicAllocation.minExecutors: '64'
+  spark.dynamicAllocation.maxExecutors: '256'
+  spark.executor.cores: '4'
+  spark.executor.memory: 18g
+  spark.sql.shuffle.partitions: '400'
+tableConf:
+  gkh: db.reformagkh
+  gridBuffers: db.grid_with_buffers
+  gridCentroids: db.grid_with_centroids
+  osmGeometryTableName: db.osm_geometry
+  osmLoadDate: '2021-03-01'
+  osmTagTableName: db.osm_tag
+  localityTable: db.geo_locality
+  localityDistrictTable: db.geo_district
+  localityGeometryTable: db.geo_polygon
+  fiasFeaturesTableName: db.ADDRESSOBJECT
+  fiasGeometryTableName: db.fias_address_geocode
+  orponTableName: db.orpon
