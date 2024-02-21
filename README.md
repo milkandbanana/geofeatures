@@ -1,10 +1,10 @@
 Geo features
-====
+=========================================================
 
 Geo features are distributed within grid cells.
 
-Lib folder contains the class with geo-spatial functions.
+**Lib folder** contains the class with geo-spatial functions.
 
-Config folder it's a folder with configuration fiiles.
+**Config folder** contains configuration fiiles.
 
-*.ipynb files are the user examples.
+***.ipynb files** are user examples.
